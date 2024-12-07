@@ -1,7 +1,8 @@
 const app = require('./app');
 
 /**
- * Start the Express server.
+ * Starts the Express server on a specified port.
+ * @param {number} PORT - The port to start the server on (default: 3000).
  */
 const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => {
